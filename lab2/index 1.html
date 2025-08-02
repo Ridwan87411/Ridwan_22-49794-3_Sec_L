@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-2{
+            display: flex;
+            gap: 20px;
+        }
+
+        .container-1{
+            display: flex;
+            gap: 20px;
+        }
+
+        input[type="text"],input[type="email"],input[type="number"],input[type="date"],input[type="tel"],textarea{
+            width: 300px;
+            height: 16px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        label{
+            font-weight: bold;
+        }
+        .body{
+            margin-left: 40px;
+        }
+        .check-txt{
+            font-weight: 100;
+        }
+
+
+        textarea{
+            width: 800px;
+            height: 100px;
+        }
+
+        input[type="submit"]{
+           width: 100px;
+           height: 40px;
+           background-color: rgb(76, 215, 76);
+           color: white;
+           font-weight: bold;
+           font-size: 16px;
+           border-radius: 8px;
+        }
+
+        .btn{
+            width: 300px;
+            margin: 0 auto;
+        }
+
+
+        input[type="submit"]:hover{
+            background-color: gray;
+        }
+
+       
+       
+    </style>
+</head>
+<body class="body">
+    <h1>Tour Reservation Form</h1>
+    <p>Let's know what you are interested to see!</p>
+
+    <hr>
+    <br>
+    <div class="container-1">
+        <div>
+            <label for="">Full Name</label>
+            <br>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <br>
+            <input type="text" name="" id="">
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container-2">
+
+        <div>
+            <label for="">E-Mail</label>
+            <br>
+            <input type="email" name="" id="" placeholder="your email@.com">
+        </div>
+       
+        <div>
+            <label for="">Phone Number</label>
+            <br>
+            <input type="tel" name="" id="" placeholder="+088-00000000">
+        </div>
+    </div>
+
+    <br><br>
+    <label for="">When are you planning to visit</label>
+    <br>
+    <input type="date" name="" id="" >
+
+    <br>
+    <br>
+    <br>
+
+    <label for="">How many people are in your group</label>
+    <br>
+    <input type="number" name="" id="">
+
+    <br>
+    <br>
+
+    <div>
+        <h3>Which tours or events are you most interested in?</h3>
+
+        <input type="checkbox" name="" id="1">
+        <label class="check-txt" for="1">Revolution was just the beginning</label>
+        <br>
+        <input type="checkbox" name="" id="2">
+        <label class="check-txt" for="2">Transcendentalism</label>
+        <br>
+        <input type="checkbox" name="" id="3">
+        <label class="check-txt" for="3">custom</label>
+        <br>
+        <input type="checkbox" name="" id="4">
+        <label class="check-txt" for="4">Ghosts in the Gloaming</label>
+        <br>
+        <input type="checkbox" name="" id="5">
+        <label class="check-txt" for="5">Gateposts, grapes & Grave</label>
+        <br>
+        <input type="checkbox" name="" id="6">
+        <label class="check-txt" for="6">Tavern Life</label>
+        
+    </div>
+
+
+    <!--  -->
+
+    <div>
+        <h3>Which tours or events are you most interested in?</h3>
+
+        <input type="checkbox" name="" id="7">
+        <label class="check-txt" for="7">Phone</label>
+        <br>
+        <input type="checkbox" name="" id="8">
+        <label class="check-txt" for="8">Email</label>
+       <br>
+
+       <input type="checkbox" name="" id="9">
+       <label class="check-txt" for="9">Either</label>
+        
+    </div>
+
+
+    <!-- radio part -->
+
+<div>
+    <h3>If Phone , when is the best time of day for a call-back</h3>
+
+    <input type="radio" name="rd-1" id="10">
+    <label class="check-txt" for="10">8-11 am</label>
+    <br>
+    <input type="radio" name="rd-1" id="11">
+    <label class="check-txt" for="11">12-4 am</label>
+   <br>
+
+   <input type="radio" name="rd-1" id="12">
+   <label class="check-txt" for="12">6-10 am</label>
+    
+</div>
+
+<br>
+<br>
+<div>
+    <label for="">Anything else we should Know?</label>
+    <br>
+    <textarea name="" id="" cols="50"rows="60" placeholder="type"></textarea>
+</div>
+
+<br>
+<br>
+<div>
+    <label for="">And Last how did you here about us?</label>
+    <br>
+    <textarea name="" id="" cols="50"rows="60" placeholder="type"></textarea>
+</div>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<div class="btn">
+    <input type="submit" value="Submit">
+</div>
+
+</body>
+</html>
