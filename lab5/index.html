@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Course Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="registrationForm">
+      <h2>Register for a Course</h2>
+
+      <label for="Name">Full Name:</label>
+      <input type="text" id="Name" name="Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="1" required>
+
+      <label for="course">Select Course:</label>
+      <select id="course" name="course" required>
+        <option value="">Select</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="c#">c#</option>
+        <option value="javascript">JavaScript</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
